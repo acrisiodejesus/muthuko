@@ -1,0 +1,50 @@
+{
+  "name": "Muthuko - Suporte e Confiança Comunitária",
+  "short_name": "Muthuko",
+  "description": "Sistema PWA offline-first de bancada para técnicos de manutenção eletrónica em Nampula, Moçambique.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "lang": "pt-MZ",
+  "dir": "ltr",
+  "categories": ["utilities", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova Entrada",
+      "short_name": "Entrada",
+      "description": "Registar novo aparelho na bancada",
+      "url": "/?tab=new",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Banco de Peças",
+      "short_name": "Peças",
+      "description": "Consultar componentes de sucata ética",
+      "url": "/?tab=parts",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
